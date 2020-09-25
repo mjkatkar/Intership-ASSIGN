@@ -1,0 +1,164 @@
+a
+{
+	color: black;
+	font: TimesNewRoman;
+	padding: 20px;
+	text-decoration: none;
+}
+.logo 	
+{
+	height: 70px;
+}
+#first
+{
+	background-color: aliceblue;	
+	text-align: 125px;
+	padding: 1px;
+}
+#login
+{
+	font-size: 10px;
+}
+.second
+{
+    text-align: center;
+	height: 115px;
+	width: 100%;
+	padding: 25px;
+	margin-right: 100px;
+}
+.btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.active, .btn:hover {
+  color: greenyellow;
+}
+
+.third
+{
+	background-color: lightgray;
+	text-align: 125px;
+	padding: 15px;
+}
+h1
+{
+	font: TimesNewRoman;
+	font-size: 50px;
+	margin-left: 175px;
+}
+h5
+{
+	font: TimesNewRoman;
+	font-size: 10x;
+	margin-left: 175px;
+	padding: 1px;
+}
+
+.social-menu ul {
+    position:absolute;
+    top: 5%;
+	left: 85%;
+    transform: translate(-50%, -50%);
+    padding: 0;
+    margin:auto;
+    display: flex;
+}
+.social-menu ul li {
+    list-style: none;
+    margin: 0 10px;
+}
+.social-menu ul li .fa {
+    color: black;
+    font-size: 20px;
+    transition: .5s;
+}
+.social-menu ul li .fa:hover {
+    color: #fffff;
+}
+.social-menu ul li a {
+    position: relative;
+    display: block;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    transition: 0.5s;
+    transform: translate(0,0px);
+    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+}
+.social-menu ul li a:hover {
+    transform: rotate(0deg) skew(0deg) translate(0, -10px);
+}
+.social-menu ul li:nth-child(1) a:hover {
+    background-color: greenyellow;
+}
+.social-menu ul li:nth-child(2) a:hover {
+    background-color: blue;
+}
+.social-menu ul li:nth-child(3) a:hover {
+    background-color: deepskyblue;
+}
+.social-menu ul li:nth-child(4) a:hover {
+    background-color: hotpink;
+}
+
+img
+{
+	max-width: 50%;
+  	height: 500px;
+	margin-left: 350px;
+}
+img:hover
+{
+	opacity: 1;
+  	display: block;
+  	width: 100%;
+  	height: auto;
+  	transition: .5s ease;
+  	backface-visibility: hidden;
+}
+h2 ,p
+{
+	margin-left: 370px;	
+}
+a.ex1:hover, a.ex1:active 
+{
+	color: yellowgreen;
+}
+button
+{
+	
+	margin-left: 370px;
+	background-color: yellowgreen; 
+  	color: white; 
+  	border: 2px solid black;
+  	transition-duration: 0.4s;
+	padding: 10px;
+	border-radius: 10px;
+}
+button:hover
+{
+	background-color: brown;
+  	color: white;
+	border: 2px solid black;
+	
+}
+hr.solid 
+{
+	border-top: 3px solid #bbb;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+.end
+{
+	text-align: center;
+	
+}
+
+
+
+
+
